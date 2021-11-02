@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG',default=True,cast=bool)
 
-ALLOWED_HOSTS = ['samplemyglam.fasnap.ml','www.samplemyglam.fasnap.ml']
+ALLOWED_HOSTS = ['3.129.20.94','127.0.0.1','samplemyglam.fasnap.ml','www.samplemyglam.fasnap.ml']
 
 
 # Application definition
